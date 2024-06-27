@@ -1,0 +1,55 @@
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Responsive Navigation */
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Responsive Hero */
+    .hero {
+        padding: 80px 0;
+    }
+
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .btn {
+        font-size: 1rem;
+    }
+
+    /* Responsive Sections */
+    section {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further Responsive Adjustments */
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+}
