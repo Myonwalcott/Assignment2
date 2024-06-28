@@ -15,7 +15,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #333;
+    background-color: #390144;
     color: #fff;
     padding: 20px 0;
     position: sticky;
@@ -89,6 +89,7 @@ nav ul li a:hover {
 section {
     padding: 80px 0;
     background-color: #f5f5f5;
+    border: #333;
 }
 
 section h2 {
